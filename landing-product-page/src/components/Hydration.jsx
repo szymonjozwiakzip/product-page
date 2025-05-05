@@ -1,4 +1,5 @@
 import '../styles/hydration.css';
+import HydrationIcon from './HydrationIcon';
 
 export default function Hydration() {
   return (
@@ -7,19 +8,18 @@ export default function Hydration() {
         <div className="hydration-image">
           <img src="/images/kobieta-kokos@2x.png" alt="kobieta i kokos" />
           <div className="hydration-overlay">
-          <div className="hydration-text-box">
-  <img src="/images/hydration-logo2.png" alt="hydration" className="hydration-icon" />
-  <h2 className="hydration-heading">
-    Naturalny kompleks<br />nawilżający dla<br />wrażliwej skóry
-  </h2>
-  <p className="hydration-desc">
-    Doskonałe nawilżenie skóry zapewnia formuła na<br />
-    bazie olejku kokosowego i oleju arganowego.
-  </p>
-</div>
-
-  </div>
-  </div>
+            <div className="hydration-text-box">
+              <HydrationIcon className="hydration-icon" />
+              <h2 className="hydration-heading">
+                Naturalny kompleks<br />nawilżający dla<br />wrażliwej skóry
+              </h2>
+              <p className="hydration-desc">
+                Doskonałe nawilżenie skóry zapewnia formuła na<br />
+                bazie olejku kokosowego i oleju arganowego.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="hydration-bottom">
