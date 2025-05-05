@@ -107,7 +107,7 @@ export default function ContactForm() {
           className="mailto-link"
         >
           <Mail className="mailto-icon" />
-          kontakt@firma.pl
+          equilibra@mail-kontaktowy.pl
         </a>
       </div>
     </section>

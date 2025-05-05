@@ -1,0 +1,21 @@
+.map-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 150px auto;
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.map-title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #0f7f25;
+  margin-bottom: 16px;
+}
+
+.leaflet-map {
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+}

@@ -12,6 +12,7 @@ import Usage from './components/Usage';
 import ProductComposition from './components/ProductComposition';
 import ContactForm from './components/ContactForm';
 import Navbar from './components/Navbar';
+import LeafletMap from './components/LeafletMap';
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
       <ProductComposition />
       <ContactForm />
       <Navbar />
+      <LeafletMap />
     </div>
   );
 }

@@ -13,6 +13,7 @@ export default function Navbar() {
         <li><a href="#usage">Sposób użycia</a></li>
         <li><a href="#composition">Skład</a></li>
         <li><a href="#contact">Kontakt</a></li>
+        <li><a href="#map">Tu jesteśmy</a></li>
       </ul>
     </nav>
   );
