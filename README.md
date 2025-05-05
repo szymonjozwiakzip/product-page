@@ -1,36 +1,18 @@
 # 🌿 Equilibra – Aplikacja promująca produkt kosmetyczny SPF 50+
 
+![Landing photo](./screenshots/landing-photo.png)
+
 ## 📌 Spis treści
 - [Wstęp](#wstęp)
-- [Galeria](#gallery)
 - [Technologie i biblioteki](#technologie-i-biblioteki)
 - [Instrukcja uruchomienia lokalnie](#instrukcja-uruchomienia-lokalnie)
 - [Struktura aplikacji](#struktura-aplikacji)
 - [Dodatkowe funkcjonalności](#dodatkowe-funkcjonalności)
 - [Animacje i UX](#animacje-i-ux)
 - [Uwagi końcowe](#uwagi-końcowe)
+- [Galeria](#gallery)
 
 ---
-## 🖼️ Galeria
-
-### Widoki aplikacji:
-
-![Zrzut ekranu 1](./screenshots/1.png)
-![Zrzut ekranu 2](./screenshots/2.png)
-![Zrzut ekranu 3](./screenshots/3.png)
-![Zrzut ekranu 4](./screenshots/4.png)
-![Zrzut ekranu 5](./screenshots/5.png)
-![Zrzut ekranu 6](./screenshots/6.png)
-![Zrzut ekranu 7](./screenshots/7.png)
-![Zrzut ekranu 8](./screenshots/8.png)
-![Zrzut ekranu 9](./screenshots/9.png)
-![Zrzut ekranu 10](./screenshots/10.png)
-![Zrzut ekranu 11](./screenshots/11.png)
-![Zrzut ekranu 12](./screenshots/12.png)
-![Zrzut ekranu 13](./screenshots/13.png)
-![Zrzut ekranu 14](./screenshots/14.png)
-
-
 ## 🟢 Wstęp
 Aplikacja Equilibra to interaktywna strona promująca naturalny krem przeciwsłoneczny SPF 50+. Składa się z sekcji informacyjnych, animacji wchodzących w trakcie scrollowania oraz prostego formularza kontaktowego obsługiwanego przez mailto.
 
@@ -160,3 +142,26 @@ Do animacji elementów podczas scrollowania wykorzystano dwie metody:
 - Nie są zbierane żadne dane użytkownika
 - Kod napisany czytelnie, komponenty są oddzielone i wielokrotnego użytku
 - Ze względu na ograniczenia czasowe **brak pełnej responsywności mobilnej**
+
+---
+
+## 🖼️ Galeria
+
+### Widoki aplikacji:
+
+![Zrzut ekranu 1](./screenshots/1.png)
+![Zrzut ekranu 2](./screenshots/2.png)
+![Zrzut ekranu 3](./screenshots/3.png)
+![Zrzut ekranu 4](./screenshots/4.png)
+![Zrzut ekranu 5](./screenshots/5.png)
+![Zrzut ekranu 6](./screenshots/6.png)
+![Zrzut ekranu 7](./screenshots/7.png)
+![Zrzut ekranu 8](./screenshots/8.png)
+![Zrzut ekranu 9](./screenshots/9.png)
+![Zrzut ekranu 10](./screenshots/10.png)
+![Zrzut ekranu 11](./screenshots/11.png)
+![Zrzut ekranu 12](./screenshots/12.png)
+![Zrzut ekranu 13](./screenshots/13.png)
+![Zrzut ekranu 14](./screenshots/14.png)
+
+---
