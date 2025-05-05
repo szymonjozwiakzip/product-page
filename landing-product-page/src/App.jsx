@@ -4,6 +4,7 @@ import Prosun from './components/Prosun';
 import ProductTested from './components/ProductTested';
 import Aloe from './components/Aloe';
 import Hydration from './components/Hydration';
+import Usage from './components/Usage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ProductTested />
       <Aloe />
       <Hydration />
+      <Usage />
     </div>
   );
 }

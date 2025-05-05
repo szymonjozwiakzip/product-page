@@ -1,0 +1,198 @@
+.usage-section {
+  width: 100%;
+  padding: 100px 1rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usage-top {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  max-width: 1350px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.usage-image-box {
+  position: relative;
+  width: 660px;
+  height: 600px;
+  margin-right: 168px;
+  animation: fadeInLeft 0.8s ease-out forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.usage-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.usage-overlay-icon {
+  position: absolute;
+  top: 75px;
+  right: -75px;
+  width: 151px;
+  height: 151px;
+  background-color: #f5821e;
+  border-radius: 50%;
+  border: 13px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-icon-inner {
+  position: relative;
+  width: 64px; /* było 48px */
+  height: 64px;
+}
+
+.icon-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.usage-overlay-icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.usage-text-content {
+  max-width: 500px;
+  animation: fadeInRight 0.8s ease-out forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.usage-title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #0f7f25;
+  margin-bottom: 16px;
+}
+
+.usage-desc {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #222;
+}
+
+.usage-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1350px;
+  margin-top: 80px;
+  width: 100%;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.usage-icon-item {
+  max-width: 280px;
+  flex: 1;
+  text-align: left;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.circle-icon {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 24px auto;
+}
+
+.circle-icon .circle-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.circle-icon .icon-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  z-index: 2;
+}
+
+.circle-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.usage-icon-item h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #0f7f25;
+  margin-bottom: 8px;
+}
+.icon-layer.layer1 {
+  top: 33px;
+  width: 70%;
+  left: 8px;
+}
+
+.icon-layer.layer2 {
+  top: 40px;
+  width: 150%;
+  left: -2px;
+}
+
+.usage-icon-item p {
+  font-size: 18px;
+  color: #222;
+  line-height: 1.5;
+}
