@@ -27,6 +27,7 @@ export default function Prosun() {
           src="/images/prosun.png"
           alt="Kobieta chroniąca się przed słońcem"
           className={`prosun-image ${isVisible ? 'slide-in-left delay-200' : 'opacity-0'}`}
+          
         />
 
         <div className={`prosun-text ${isVisible ? 'slide-in-right delay-400' : 'opacity-0'}`}>
