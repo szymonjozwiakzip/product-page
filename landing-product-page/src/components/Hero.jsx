@@ -2,7 +2,7 @@ import '../styles/hero.css';
 
 export default function Hero() {
   return (
-    <section className="hero-section">
+    <section id="start" className="hero-section">
       <div className="hero-container">
         <img
           src="/images/hero1@2x.png"

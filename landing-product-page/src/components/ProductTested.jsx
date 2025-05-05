@@ -20,7 +20,7 @@ export default function Tested() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="tested-section">
+    <section ref={sectionRef} id="tested" className="tested-section">
       <div className={`tested-box ${visible ? 'fade-in-up delay-200' : 'opacity-0'}`}>
         <img src="/images/Group2@2x.png" alt="Produkt" className="tested-image" />
 

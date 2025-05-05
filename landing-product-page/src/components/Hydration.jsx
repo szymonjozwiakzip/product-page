@@ -3,8 +3,8 @@ import HydrationIcon from './HydrationIcon';
 
 export default function Hydration() {
   return (
-    <section className="hydration-section">
-      <div className="hydration-top">
+    <section id="hydration" className="hydration-section">
+      <div className="hydration-top" data-aos="fade-left" data-aos-delay="400">
         <div className="hydration-image">
           <img src="/images/kobieta-kokos@2x.png" alt="kobieta i kokos" />
           <div className="hydration-overlay">
@@ -22,7 +22,7 @@ export default function Hydration() {
         </div>
       </div>
 
-      <div className="hydration-bottom">
+      <div className="hydration-bottom" data-aos="fade-right" data-aos-delay="400">
         <div className="hydration-item">
           <img src="/images/argan-kokos@2x.png" alt="kokos i argan" />
           <h3>Połączenie olejku kokosowego<br />z olejem arganowym</h3>

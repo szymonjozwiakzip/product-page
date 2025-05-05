@@ -20,7 +20,7 @@ export default function Aloe() {
   }, []);
 
   return (
-    <section className="aloe-section" ref={sectionRef}>
+    <section id="aloe" className="aloe-section" ref={sectionRef}>
       <h2 className="aloe-heading">
         Ochrona i pielęgnacja. Poznaj moc<br />naturalnych składników.
       </h2>

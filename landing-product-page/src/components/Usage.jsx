@@ -3,8 +3,8 @@ import UsageIcons from './UsageIcons';
 
 export default function Usage() {
   return (
-    <section className="usage-section">
-      <div className="usage-top">
+    <section id="usage" className="usage-section">
+      <div className="usage-top" data-aos="fade-left" data-aos-delay="400">
         <div className="usage-image-box">
           <img src="/images/usageproduct@2x.png" alt="Sposób użycia" className="usage-image" />
           <div className="usage-overlay-icon">
@@ -16,7 +16,7 @@ export default function Usage() {
 </div>
 
         </div>
-        <div className="usage-text-content">
+        <div className="usage-text-content" data-aos="fade-right" data-aos-delay="400">
           <h2 className="usage-title">Sposób użycia</h2>
           <p className="usage-desc">
             Rozpylić z odległości około 10 cm i wmasować produkt w skórę 30 minut przed ekspozycją na słońce.
@@ -27,7 +27,7 @@ export default function Usage() {
         </div>
       </div>
 
-      <UsageIcons />
+      <UsageIcons data-aos="fade-up" data-aos-delay="600" />
     </section>
   );
 }

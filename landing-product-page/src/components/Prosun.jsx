@@ -21,7 +21,7 @@ export default function Prosun() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="prosun-section">
+    <section ref={sectionRef} id="prosun" className="prosun-section">
       <div className="prosun-container">
         <img
           src="/images/prosun.png"
