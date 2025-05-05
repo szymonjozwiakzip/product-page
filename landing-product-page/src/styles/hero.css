@@ -1,0 +1,117 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+}
+
+.hero-container {
+  position: relative;
+  width: 1350px;
+  height: 678px;
+  border-radius: 0.75rem;
+  overflow: visible;
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-right {
+  opacity: 0;
+  animation: slideInRight 1s ease-out forwards;
+}
+
+.slide-in-left {
+  opacity: 0;
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.delay-600 {
+  animation-delay: 0.6s;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-text {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  z-index: 10;
+  max-width: 400px;
+  text-align: left;
+}
+
+.hero-title {
+  font-size: 72px;
+  line-height: 1.1;
+  color: #0f7f25;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-desc {
+  font-size: 24px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-desc span {
+  color: #0f7f25;
+  font-weight: bold;
+}
+
+.hero-product {
+  position: absolute;
+  bottom: -150px;
+  left: 138px;
+  width: 745px;
+  z-index: 20;
+}
+
+.hero-aloe {
+  position: absolute;
+  bottom: -80px;
+  left: 123px;
+  width: 575px;
+  z-index: 10;
+}

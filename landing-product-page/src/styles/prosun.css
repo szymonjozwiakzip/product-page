@@ -1,0 +1,62 @@
+.prosun-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 101px 1rem;
+}
+
+.prosun-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1350px;
+}
+
+@media (min-width: 1024px) {
+  .prosun-container {
+    flex-direction: row;
+  }
+}
+
+.prosun-image {
+  width: 570px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.prosun-text {
+  max-width: 600px;
+  margin-left: auto;
+  padding-top: 99px;
+}
+
+.prosun-badge {
+  background-color: #fff4eb;
+  color: #f38122;
+  font-size: 21px;
+  font-weight: 500;
+  width: 227px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin-bottom: 24px;
+}
+
+.prosun-heading {
+  font-size: 34px;
+  line-height: 1.2;
+  color: #0f7f25;
+  font-weight: 400;
+  margin-bottom: 19px;
+}
+
+.prosun-paragraph {
+  font-size: 18px;
+  color: black;
+  line-height: 1.6;
+}
