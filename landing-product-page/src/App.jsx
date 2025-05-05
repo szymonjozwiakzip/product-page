@@ -5,6 +5,7 @@ import ProductTested from './components/ProductTested';
 import Aloe from './components/Aloe';
 import Hydration from './components/Hydration';
 import Usage from './components/Usage';
+import ProductComposition from './components/ProductComposition';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Aloe />
       <Hydration />
       <Usage />
+      <ProductComposition />
     </div>
   );
 }
