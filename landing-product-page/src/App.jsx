@@ -2,6 +2,7 @@ import Hero from './components/Hero';
 import SkinProtect from './components/SkinProtect';
 import Prosun from './components/Prosun';
 import ProductTested from './components/ProductTested';
+import Aloe from './components/Aloe';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <SkinProtect />
       <Prosun />
       <ProductTested />
+      <Aloe />
     </div>
   );
 }

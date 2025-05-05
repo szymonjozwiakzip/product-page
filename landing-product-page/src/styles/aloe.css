@@ -1,0 +1,128 @@
+.aloe-section {
+  width: 100%;
+  background: white;
+  padding: 100px 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.aloe-heading {
+  font-size: 64px;
+  color: #0f7f25;
+  text-align: center;
+  margin-bottom: 48px;
+  font-weight: 300;
+  margin-bottom: 95px;
+}
+
+.aloe-box {
+  position: relative;
+  width: 1350px;
+  height: auto;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.aloe-bg {
+  width: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+  display: block;
+}
+
+.aloe-left {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  display: flex;
+  gap: 20px;
+}
+
+.aloe-bar {
+  width: 21px;
+  background: #0f7f25;
+  height: 284px;
+  border-radius: 3px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.aloe-percent {
+  color: #0f7f25;
+}
+
+.aloe-to {
+  font-size: 50px;
+  color: #0f7f25;
+  transform: translateY(28px);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.aloe-big {
+  font-size: 160px;
+  font-weight: 400;
+  color: #0f7f25;
+  line-height: 1;
+}
+
+.aloe-sub {
+  margin-top: 0;
+  font-size: 28px;
+  font-weight: 500;
+  color: #0f7f25;
+  text-transform: uppercase;
+}
+
+.aloe-right {
+  position: absolute;
+  top: 80px;
+  right: 60px;
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  width: 483px;
+  height: 584px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  opacity: 85%;
+}
+
+.aloe-title {
+  color: #0f7f25;
+  font-size: 34px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.aloe-desc {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.4;
+  width: 385px;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
