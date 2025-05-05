@@ -1,0 +1,95 @@
+.hydration-section {
+  width: 100%;
+  padding: 100px 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.hydration-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.hydration-image {
+  position: relative;
+  width: 1350px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.hydration-image img {
+  width: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
+.hydration-overlay {
+  position: absolute;
+  left: 20px;
+  bottom: 130px;
+  color: #0f7f25;
+  text-align: left;
+}
+
+.hydration-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+}
+
+.hydration-icon {
+  width: 24px;
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: -8px;
+  object-fit: contain;
+}
+
+.hydration-text-content {
+  flex: 1;
+  padding-left: 28px;
+}
+
+.hydration-heading {
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.hydration-desc {
+  font-size: 16px;
+  color: #222;
+  line-height: 1.5;
+}
+
+.hydration-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.hydration-item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.hydration-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.hydration-item h3 {
+  font-size: 18px;
+  color: #0f7f25;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.hydration-item p {
+  font-size: 14px;
+  color: #222;
+  line-height: 1.4;
+}
